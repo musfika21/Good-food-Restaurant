@@ -166,11 +166,12 @@
 }
 
 #follow{
-    margin: 109px auto;
-    width: 1545px;
-    /* background: #fff,url("assets/social-bg.png"); */
-    /* background-repeat: no-repeat; */
-
+    margin-top: 109px;
+    height: 538px;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+        ), url('assets/social-bg.png');
 }
 
 #follow .flow{
@@ -202,7 +203,8 @@
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.6;
-    margin-top: 30px;
+    margin-top: 19px;
+    margin-bottom: 38px;
 }
 
 .last{
@@ -214,15 +216,44 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 24px auto;
 }
 
 hr{
     width: 1056px;
-    opacity: 0.2;
+    opacity: 0.6;
+    border-bottom: none;
+}
+.f-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+   
+}
+.f-image img{
+    height: 30px;
 }
 
-.hr1{
-    margin-top: 38px;
+.about{
+    display: flex;
+    justify-content: center;
+    width: 1536px;
+}
+.abt-image{
+    height: 536px;
+}
+.flw{
+    width: 960px;
+}
+.flow-head{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 109px;
 }
